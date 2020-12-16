@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Roboto&display=swap');
+body{
+  max-width:100%;
+ padding: 0;
+ margin: 0px;
+ 
+}
+#welcome-section{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(https://thumbs.gfycat.com/ThirstyBabyishHusky-size_restricted.gif);
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  color: white; 
+  width:100%;
+  
+  height:100vh;
+margin-top:-1.04vw;
+
+  display: flex;
+    text-align:center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+h1{
+  font-family:poppins;
+  font-size: 9vw;
+  padding: 0px;
+  
+}
+h2{
+  font-family:domine;
+  font-size: 4vw;
+}
+h4{
+  font-family:domine;
+  font-size: 2vw;
+}
+#experience{
+  background-image:url(https://64.media.tumblr.com/c5d68e3f92b74f875e9eaa71e7afaf72/tumblr_pk86uikJgM1rhk4rn_400.gifv);
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+ 
+  color: white; 
+  width:100%;
+  
+ display: flex;
+  text-align:center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding:0px 0px 4vw 0px;
+}
+#projects{
+  background-image:url(https://i.pinimg.com/originals/fe/5c/26/fe5c26a16c454ac9d24bc9365f2ba023.gif);
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+ 
+  color: white; 
+  width:100%;
+  
+ display: flex;
+  text-align:center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding:0px 0px 4vw 0px;
+}
+#project-title{
+  font-family:poppins;
+  font-size: 4vw;
+  
+}
+
+.project-tile{
+  max-width:55%;
+  height:auto;
+  
+}
+.project-tile:hover{
+  max-width:57%; 
+  box-shadow: 0 16px 20px 0 rgb(0, 0, 0);
+        transition-duration: 0.5s;
+
+ }
+label{
+  font-family:domine;
+  font-size:2vw;
+  padding:2vw 0px 4vw 0px;
+}
+
+#contact{
+background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Download-Gif-Images.gif);
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  color: white; 
+  width:100%;
+  height:110vh;
+display: flex;
+  
+  text-align:center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact-links {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  
+}
+
+.contact-details {
+  color:white;
+  font-family:roboto;
+  text-decoration:none;
+  font-size: 3.11vw;
+ padding:0px 2vw;
+transition-duration:0.3s;
+}
+
+.contact-details:hover {
+  text-shadow: .5vw .5vw .4vw #000;
+  transform: translateY(8px);
+}
+
+h3{
+  font-family:domine;
+  font-size:5.7vw;
+  padding:0px;
+}
+ header{
+       background-color: rgb( 250, 0, 0);
+       position: sticky;
+       top: 0;
+       margin:0;
+         height:auto;
+         padding: 0vw 0px 1vw 0px;
+       
+         display: flex;
+         
+        
+  
+     }
+
+
+#nav{
+  display: flex;
+  position: absolute;
+  
+  right: 0px;
+  margin: auto 0;
+  flex-direction: row;
+  list-style-type:none;
+}
+.nav-link{
+    font-family: Roboto;
+  font-size:20px;
+  text-align: center;
+  padding: 0vw 1vw 0px 1vw;
+
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: greenyellow;
+}   
+.nav-link:focus{
+  color: orange;
+}
+
+@media screen and (max-width: 525px){
+  h1{
+    font-size:14vw;
+  }
+  h2{
+    font-size:8vw;
+  }  
+  h3{
+    font-size:9vw;
+  }
+  #project-title{
+    font-size:7vw;
+  }
+  .project-tile{
+    max-width:85%;
+  }
+  label{
+    font-size:4.5vw;
+  }
+  .contact-links{
+    flex-direction:column;
+  }
+  .contact-details{
+    font-size:7vw;
+    padding: 3vw 0px;
+  }
+  .nav-link{
+    font-size:4vw;
+  }
+
+
+
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+;
+  padding: 10px;
+}
+.grid-item {
+
+ 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+  width:10px;
+    
+}
+
+
+::-webkit-scrollbar-track{
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ddd;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #fff;
+  border-radius: 0px;
+}
